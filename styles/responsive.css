@@ -1,5 +1,11 @@
 /* 반응형조건 responsive */
 /* m(320~) -> t(1024~) -> d(1250~) */
+@media screen and (min-width:550px) {
+    /* ----------------------------------------------2행 퀴즈 */
+    #wrap .quiz_bg .quiz {flex-flow:row nowrap;}
+    #wrap .quiz_bg .quiz .quiz_list {width:200px;}
+    #wrap .quiz_bg .quiz .quiz_status {flex:1;}
+}
 @media screen and (min-width:860px) {
     #wrap .intro {padding:300px 0 100px;}
 }/* 860~1023 */
@@ -11,6 +17,11 @@
     #wrap .container .sponsor_btn {width:238px; height:60px;}
     #wrap .container .sponsor_btn em {font-size:1.38rem;}
     #wrap .container .sponsor_btn::after {font-size:1rem;}
+    /* ----------------------------------------------2행 퀴즈 */
+    #wrap .quiz_bg .quiz .quiz_list {width:400px;}
+    #wrap .quiz_bg .quiz .quiz_list #quiz_frm ul li label  {
+        background-size:28px; display:block; line-height: 2;
+    }
 }/* 1024~1249 */
 @media screen and (min-width:1250px) {
     #wrap .intro {padding:447px 0 100px;}
