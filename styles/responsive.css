@@ -35,6 +35,18 @@
     #wrap .quiz_bg .quiz .quiz_list #quiz_frm ul li label  {
         background-size:28px; display:block; line-height: 2;
     }
+    /* -----------------------------------------------8행 */
+    #wrap .activity_bg .activity .details {
+        grid-template-areas:
+            'public nature '
+            'corporation nature';
+        grid-template-columns:1fr 1fr;
+    }
+    #wrap .activity_bg .activity .details li {position:relative; padding-bottom:30px;}
+    #wrap .activity_bg .activity .details li .txt {width:50%;}
+    #wrap .activity_bg .activity .details li:last-child .txt {
+        position:absolute; left:0; bottom:30px;
+    }
 }/* 1024~1249 */
 @media screen and (min-width:1250px) {
     #wrap .intro {padding:447px 0 100px;}
