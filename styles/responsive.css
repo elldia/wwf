@@ -8,6 +8,19 @@
 }
 @media screen and (min-width:860px) {
     #wrap .intro {padding:300px 0 100px;}
+    /* -------------------------------------------3행~6행 공통 */
+    #wrap .container {padding:200px 80px;}
+    #wrap .container .contents h1 {font-size:2.5rem; margin:0 0 40px;}
+    #wrap .container .contents h1+p {font-size:1.38rem;}
+    /* -------------------------------------------3행 */
+    #wrap .video_bg .video h1 {margin:0 0 70px;}
+    #wrap .video_bg .video iframe {height:484px;}
+    /* -------------------------------------------5행 */
+    #wrap .humanity_bg .humanity .list {flex-flow:row nowrap;}
+    #wrap .humanity_bg .humanity .list li {flex:1;}
+    #wrap .humanity_bg .humanity .list li dl dt {font-size:2.69rem;}
+    #wrap .humanity_bg .humanity .list li .txt {height:250px;}
+    #wrap .humanity_bg .humanity .list li .txt p {font-size:1rem;}
 }/* 860~1023 */
 @media screen and (min-width:1024px) {
     #wrap .intro {padding:410px 0 100px;}
